@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Page Interactions</h1>
+        <p>Combining CSS & JavaScript</p>
+    </header>
+
+    <!-- Part 1: CSS-only Effects -->
+
+    <section id="part1">
+        
+        <div class="container">
+            <button class="styled-btn">Hover Me!</button>
+            <div class="box animated-box"></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Part 2: JavaScript Functions-->
+
+    <section id="part2">
+        
+        <div class="container">
+            <input type="number" id="num1" placeholder="Enter a number">
+            <input type="number" id="num2" placeholder="Enter another number">
+            <button id="calculateBtn">Calculate Sum</button>
+            <p id="result">Result will appear here.</p>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <!-- Part 3: Combined CSS & JavaScript Effects -->
+
+    <section id="part3">
+        
+        <div class="container">
+            <div class="card" id="cardFlip">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <p>Click to Flip</p>
+                    </div>
+                    <div class="card-back">
+                        <p>The Card Flipped!</p>
+                    </div>
+                </div>
+            </div>
+            <button id="triggerAnimationBtn">Trigger Box Animation</button>
+            <div class="box interactive-box"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <footer>Copyright © 2025 Jeff Otiende</footer>
+</body>
+</html>
